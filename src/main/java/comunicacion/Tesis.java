@@ -21,7 +21,7 @@ public class Tesis extends Escrito {
 	public
 	int palabrasTotales(int palabrasPagina) {
 		// TODO Auto-generated method stub
-		return 0;
+		return getPaginas()*palabrasPagina*5;
 	}
 
 	public String getIdea() {

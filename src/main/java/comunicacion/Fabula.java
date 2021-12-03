@@ -14,7 +14,7 @@ public class Fabula extends Escrito {
 	public
 	int palabrasTotales(int palabrasPagina) {
 		// TODO Auto-generated method stub
-		return 0;
+		return getPaginas()*palabrasPagina*1;
 	}
 
 	@Override
