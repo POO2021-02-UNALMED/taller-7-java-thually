@@ -74,7 +74,7 @@ public class Tesis extends Escrito {
 	public String toString() {
 		// TODO Auto-generated method stub
 		return getOrigen() +"\n"+ getTitulo() +"\n"+ getAutor() +"\n"+ getPaginas() +"\n"+
-				getIdea() +"\n"+ getArgumentos() +"\n"+ getConclusion() +"\n"+ getReferencias();
+				getIdea() +"\n"+ getArgumentos().length +"\n"+ getConclusion() +"\n"+ getReferencias();
 	}
 
 }
